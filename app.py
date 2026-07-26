@@ -5,11 +5,14 @@ from PIL import Image
 import numpy as np
 
 
-model = keras.models.load_model(
-    "oral_pathology_model_tf215.h5",
-    compile=False
-)
+@st.cache_resource
+def load_model():
+    return keras.models.load_model(
+        "oral_pathology_model_tf215.h5",
+        compile=False
+    )
 
+model = load_model()
 
 class_names = [
     "AMELOBLASTOMA",
