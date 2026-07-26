@@ -20,7 +20,7 @@ class_names = [
 ]
 
 
-st.title("Ameloblatoma VS AOT AI Image Classifier")
+st.title("AMELOBLASTOMA VS AOT AI IMAGE CLASSIFIER")
 
 st.write(
     "AI-assisted classification of oral histopathology images. Upload an image to obtain a predicted lesion category.")
