@@ -6,7 +6,8 @@ import numpy as np
 
 
 model = keras.models.load_model(
-    "histo_image_classifier_builtmodel.keras"
+    "histo_image_classifier_builtmodel.keras",
+    compile=False
 )
 
 
