@@ -23,10 +23,7 @@ class_names = [
 st.title("Ameloblatoma VS AOT AI Image Classifier")
 
 st.write(
-    "
-AI-assisted classification of oral histopathology images.
-Upload an image to obtain a predicted lesion category."
-)
+    "AI-assisted classification of oral histopathology images. Upload an image to obtain a predicted lesion category.")
 
 
 uploaded_file = st.file_uploader(
