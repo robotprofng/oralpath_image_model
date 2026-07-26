@@ -20,7 +20,7 @@ class_names = [
 ]
 
 
-st.title("Oral Pathology AI Classifier")
+st.title("Ameloblatoma VS AOT AI Image Classifier")
 
 st.write(
     "Upload a histopathology image for classification."
