@@ -6,7 +6,7 @@ import numpy as np
 
 
 model = keras.models.load_model(
-    "histo_image_classifier_builtmodel.keras",
+    "oral_pathology_model_tf215.h5",
     compile=False
 )
 
